@@ -26,8 +26,6 @@ AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.co
 
 ''Invalid input - missing password
 AddUser "rnmith", "", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
-<<<<<<< HEAD
-=======
 
 ''Invalid input - user already exists
 AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
@@ -35,4 +33,5 @@ AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@s
 ''Invalid input - invalid email
 AddUser "jsmith", "password", "John", "Smith", "ABC", "416-456-0000", "jsmithsample.com"
 
->>>>>>> c31c84da7e160f6972c72ac7759cdc9d521f1c7a
+
+
